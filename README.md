@@ -13,11 +13,9 @@ that ext4fuse is read-only also means that it's completely safe to use.
 ### OS X 
 If you use OS X I suggest you rely on the [homebrew project](http://mxcl.github.com/homebrew/).
 
-Once you have homebrew installed, simply type the following two commands:
+Once you have homebrew installed, simply type the following command:
 
-`$ brew cask install osxfuse`
-
-`$ brew install ext4fuse`
+`$ brew install osxfuse --cask`
 
 At least on Leopard, you need to add your user to the operator group so you can
 have readonly permissions to the disks.  Use this:
